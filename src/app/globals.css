@@ -14,7 +14,7 @@
 
 :root.dark {
   color-scheme: dark;
-  --background: #0a0a0a;
+  --background: #020617;
   --foreground: #ededed;
 }
 
@@ -31,7 +31,7 @@ body {
 
 @variant dark {
   .page-gradient {
-    background: linear-gradient(to bottom right, #0f172a, #1e293b);
+    background: linear-gradient(to bottom right, #020617, #0f172a);
   }
 }
 
@@ -48,7 +48,7 @@ body {
 
 @variant dark {
   .card-base {
-    background-color: #1e293b;
+    background-color: #0f172a;
   }
 }
 
@@ -65,7 +65,7 @@ body {
 
 @variant dark {
   .card-elevated {
-    background-color: #1e293b;
+    background-color: #0f172a;
   }
 }
 
@@ -78,7 +78,7 @@ body {
 
 @variant dark {
   .card-feature {
-    background-color: #1e293b;
+    background-color: #0f172a;
   }
 }
 
@@ -91,7 +91,7 @@ body {
 
 @variant dark {
   .card-stats {
-    background-color: #1e293b;
+    background-color: #0f172a;
   }
 }
 
@@ -133,7 +133,7 @@ body {
   }
   
   .btn-secondary:hover {
-    background-color: #374151;
+    background-color: #1e293b;
   }
 }
 
@@ -217,7 +217,7 @@ body {
   .form-input,
   .form-select {
     border-color: #4b5563;
-    background-color: #374151;
+    background-color: #1e293b;
     color: #ffffff;
   }
   
@@ -346,7 +346,7 @@ body {
 
 @variant dark {
   .hover-bg:hover {
-    background-color: rgba(55, 65, 81, 0.5);
+    background-color: rgba(30, 41, 59, 0.5);
   }
 }
 
@@ -367,7 +367,7 @@ body {
 
 @variant dark {
   .progress-bar {
-    background-color: #374151;
+    background-color: #1e293b;
   }
 }
 
@@ -420,7 +420,7 @@ body {
   }
   
   .table-row:hover {
-    background-color: rgba(55, 65, 81, 0.5);
+    background-color: rgba(30, 41, 59, 0.5);
   }
 }
 
@@ -455,6 +455,6 @@ body {
 
 @variant dark {
   .gallery-card {
-    background-color: #1e293b;
+    background-color: #0f172a;
   }
 }
